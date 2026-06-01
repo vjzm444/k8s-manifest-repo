@@ -5,6 +5,7 @@ metadata:
   name: demo-frontend
   namespace: default
 spec:
+  revisionHistoryLimit: 1
   replicas: 3
   selector:
     matchLabels:
